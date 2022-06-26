@@ -1,11 +1,13 @@
 import './App.css';
-import GoogleSignIn from "./GoogleSignIn";
-
+import GoogleLoginComponent from "./GoogleLoginComponent";
 function App() {
   return (
     <div className="App">
-<GoogleSignIn />
+<h2>React Google Login Example</h2>
+        <GoogleLoginComponent />
     </div>
+
+
   );
 }
 
