@@ -4,8 +4,14 @@ import GoogleLogin from 'react-google-login';
 class GoogleSocialAuth extends Component {
 
   render() {
-    const responseGoogle = (response) => {
+    const responseGoogleSuccess = (response) => {
       console.log(response);
+      console.log("redirect to dashboard")
+    }
+
+        const responseGoogleFailure = (response) => {
+      console.log(response);
+      console.log("redirect to error message or login")
     }
     return (
       <div className="App">
@@ -14,8 +20,8 @@ class GoogleSocialAuth extends Component {
         <GoogleLogin
           clientId="<Google Client ID>"
           buttonText="LOGIN WITH GOOGLE"
-          onSuccess={responseGoogle}
-          onFailure={responseGoogle}
+          onSuccess={responseGoogleSuccess}
+          onFailure={responseGoogleFailure}
         />
       </div>
     );
