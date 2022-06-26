@@ -32,7 +32,7 @@ export class GoogleSignIn extends Component {
             color="google" size="lg"
             type="submit"
             className="mr-1 btn-block flex d-flex" >
-            {this.state.loadeing?
+            {this.state.loading?
               <Spinner color="secondary" />
               :
               <div>
