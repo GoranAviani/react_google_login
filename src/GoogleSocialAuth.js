@@ -4,7 +4,7 @@ import GoogleLogin from 'react-google-login';
 class GoogleSocialAuth extends Component {
 
   render() {
-    const googleResponse = (response) => {
+    const responseGoogle = (response) => {
       console.log(response);
     }
     return (
