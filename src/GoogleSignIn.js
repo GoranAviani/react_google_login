@@ -11,15 +11,16 @@ import {
 
 export class GoogleSignIn extends Component {
 
+
   responseGoogle = async (response) => {
     console.log(response.accessToken)
   }
 
-  responseGoogle = async (response) => {
+ /*  responseGoogle = async (response) => {
     console.log(response)
   }
 
-
+*/
   render() {
     return(
       <GoogleLogin
