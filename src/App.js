@@ -1,5 +1,4 @@
 import './App.css';
-import GoogleSocialAuth from './GoogleSocialAuth'
 function App() {
   return (
     <div className="App">
