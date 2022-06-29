@@ -1,6 +1,6 @@
 import './App.css';
         import { GoogleLogin } from '@react-oauth/google';
-
+import googleLogin from "./GoogleLoginService";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
 <GoogleLogin
   onSuccess={credentialResponse => {
     console.log(credentialResponse);
+    googleLogin(credentialResponse)
   }}
   onError={() => {
     console.log('Login Failed');
