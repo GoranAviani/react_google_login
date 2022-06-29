@@ -7,12 +7,10 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 
 
 ReactDOM.render(
-  <React.StrictMode>
       <GoogleOAuthProvider clientId="683180046277-t176erjmqhhr48hm8ke339li26ijc7ev.apps.googleusercontent.com">
     <App />
           </GoogleOAuthProvider>;
 
-  </React.StrictMode>,
   document.getElementById('root')
 );
 
