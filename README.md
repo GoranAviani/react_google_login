@@ -1,5 +1,4 @@
-https://stackoverflow.com/questions/62784983/django-google-login-with-react-frontend
-
+https://www.npmjs.com/package/@react-oauth/google
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
